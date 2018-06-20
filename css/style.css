@@ -1,0 +1,62 @@
+html,
+body,
+.hotels {
+	font-family: Arial, sans-serif;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.hotels {
+	display: flex;
+	flex-direction: column;
+}
+
+h3 {
+	background-color:greenyellow;
+}
+
+.list-view > ul {
+	list-style-type: none;
+	padding-bottom: 5%;
+	padding-left: 3px;
+}
+.m{height:30px;}
+.main {
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+}
+
+/*moves its container to the right
+to make room for the filter*/
+.main.moveRight {
+	left: 200px;
+}
+/*added class to map rather than using id*/
+.map-canvas {
+	top: 40px;
+	bottom: 0px;
+	height: 100%;
+	left: 0px;
+	position: absolute;
+	right: 0px;
+}
+
+nav {
+	width: 200px;
+	position: absolute;
+  	-webkit-transform: translate(-200px, 0);
+	transform: translate(-200px, 0);
+  }
+
+nav.open {
+	-webkit-transform: translate(0, 0);
+	transform: translate(0, 0);
+}
+@media only screen and (max-device-width : 200px), only screen and (max-width : 200px)  {
+
+    .menu{
+        width:50%;
+    }
