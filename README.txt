@@ -6,7 +6,7 @@ Content
 When the app is first opened it will display a Google Map located in Hyderabad, It shows all the 6 star hotels already marked. Menu text which on clicking displays the menu of 6 hotels.
 
 Steps to run the application.
-Firstly clone the repository or download the zip file and unzip it or extract it. After that open the file(extracted file) there you can see the index.html file just open the index.html and you can enjoy the webapplication. No need to install any other softwares. 
+Firstly clone the repository or download the zip file and unzip it or extract it. After that open the file(extracted file) there you can see the index.html file just open the index.html in your browser and you can enjoy the webapplication. No need to install any other softwares. 
 
 
 Features
