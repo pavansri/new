@@ -107,7 +107,7 @@ var ViewModel = function() {
                         } else {
                             loc.marker.setMap(null);
                         }
-                        return loc.n.toLowerCase()
+                        return loc.name.toLowerCase()
                             .indexOf(filter.toLowerCase()) !==
                             -1;
                     });
